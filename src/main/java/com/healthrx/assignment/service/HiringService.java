@@ -14,7 +14,7 @@ import reactor.core.publisher.Mono;
 @Service
 @Slf4j
 @RequiredArgsConstructor
-public class ApiService {
+public class HiringService {
 
     private final WebClient webClient;
     private static final String BASE_URL = "https://bfhldevapigw.healthrx.co.in/hiring";
